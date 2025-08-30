@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteBite - Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="modeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+
+<!-- Hero Section with Slider -->
+<section id="home" class="hero-slider">
+  <div class="slider">
+    <div class="slide active">
+      <img src="https://plus.unsplash.com/premium_photo-1673439304183-8840bd0dc1bf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="Delicious Pizza">
+      <div class="caption">
+        <h1>Welcome to TasteBite</h1>
+        <p>Where Flavor Meets Ambience</p>
+        <a href="#reservation" class="btn">Book a Table</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://thumbs.dreamstime.com/b/cozy-eco-style-cafe-interior-natural-wood-furniture-potted-green-plants-wicker-pendant-lights-concept-sustainable-384205355.jpg" alt="Restaurant Interior">
+      <div class="caption">
+        <h1>Fine Dining Experience</h1>
+        <p>Elegant Atmosphere, Cozy Ambience</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1693609929783-f6a1cfd35b41?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGl0YWxpYW4lMjBmb29kJTIwY2hlZiUyMGNvb2tpbmd8ZW58MHx8MHx8fDA%3D" alt="Tasty Pasta">
+      <div class="caption">
+        <h1>Authentic Recipes</h1>
+        <p>Freshly Cooked with Love</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrows -->
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</section>
+
+
+  <!-- Menu Section -->
+ <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Classic delight with mozzarella & basil</p>
+        <span>150/-</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzdGF8ZW58MHx8MHx8fDA%3D" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Authentic pasta with fresh herbs</p>
+        <span>120/-</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww" alt="Burger">
+        <h3>Juicy Burger</h3>
+        <p>Grilled perfection with fresh toppings</p>
+        <span>100/-</span>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1665556387816-cba60197beec?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvY28lMjBsYXZhJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D" alt="Dessert">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Rich, gooey, and delicious</p>
+        <span>80/-</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+  <section id="reservation" class="reservation">
+    <h2>Book a Table</h2>
+    <form id="reserveForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone" required>
+      <input type="date" required>
+      <input type="time" required>
+      <input type="number" min="1" max="100" placeholder="Guests" required>
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+   <footer id="contact">
+    <div class="footer-content">
+      <p>📍 123 Food Street, New Delhi, India</p>
+      <p>📞 +91 98765 43210 | ✉️ info@tastebite.com</p>
+      <p>© 2025 TasteBite | All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
