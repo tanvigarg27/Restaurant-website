@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "type": "Vegetarian",
+    "description": "Classic delight with mozzarella & basil",
+    "price": 150
+  },
+  {
+    "name": "Italian Pasta",
+    "type": "Vegetarian",
+    "description": "Authentic pasta with fresh herbs",
+    "price": 120
+  },
+  {
+    "name": "Juicy Burger",
+    "type": "Non-Vegetarian",
+    "description": "Grilled perfection with fresh toppings",
+    "price": 100
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "type": "Dessert",
+    "description": "Rich, gooey, and delicious",
+    "price": 80
+  }
+]
+
